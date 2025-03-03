@@ -1,0 +1,63 @@
+2025-03-03 10:56:50 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-03 10:57:06 INFO  TC002_LoginTest:104 - Performing login...
+2025-03-03 10:57:10 INFO  TC002_LoginTest:112 - Login successful
+2025-03-03 10:57:10 INFO  TC002_LoginTest:14 - ****** Startign TC_002_LoginTest *****
+2025-03-03 10:57:10 INFO  TC002_LoginTest:23 - ****** TC_002_LoginTest case PASSED*****
+2025-03-03 10:57:10 INFO  TC002_LoginTest:30 - ****** Finished TC_002_LoginTest *****
+2025-03-03 10:57:25 INFO  TC003_AssetPageTest:104 - Performing login...
+2025-03-03 10:57:28 INFO  TC003_AssetPageTest:112 - Login successful
+2025-03-03 10:57:28 INFO  TC003_AssetPageTest:23 - ****** Waiting for Asset Page to Load Fully ******
+2025-03-03 10:57:30 INFO  TC003_AssetPageTest:30 - ****** Validating Asset Dashboard Metrics ******
+2025-03-03 10:57:30 INFO  TC003_AssetPageTest:51 - ****** Dashboard Metrics Validation Completed ******
+2025-03-03 10:57:31 INFO  TC003_AssetPageTest:57 - ****** Validating Asset Search Functionality ******
+2025-03-03 10:57:32 INFO  TC003_AssetPageTest:63 - Entered search query: MTU035
+2025-03-03 10:57:32 INFO  TC003_AssetPageTest:67 - First search result displayed: MTU035
+2025-03-03 10:57:32 INFO  TC003_AssetPageTest:72 - ****** Asset Search Validation PASSED ******
+2025-03-03 10:57:32 INFO  TC003_AssetPageTest:107 - ****** Validating Export Excel Functionality ******
+2025-03-03 10:57:32 INFO  TC003_AssetPageTest:112 - Clicked on 'Export Excel' button
+2025-03-03 10:57:33 INFO  TC003_AssetPageTest:125 - Exported file found: assets_03-03-2025.xlsx
+2025-03-03 10:57:33 INFO  TC003_AssetPageTest:127 - ****** Export Excel Validation PASSED ******
+2025-03-03 10:57:33 INFO  TC003_AssetPageTest:150 - ****** Validating 'Create New Asset' Page ******
+2025-03-03 10:57:33 INFO  TC003_AssetPageTest:155 - Clicked on 'Add Asset' button
+2025-03-03 10:57:33 INFO  TC003_AssetPageTest:162 - ****** 'Create New Asset' Page Validation PASSED ******
+2025-03-03 10:57:47 INFO  TC004_AddAssetTest:104 - Performing login...
+2025-03-03 10:57:50 INFO  TC004_AddAssetTest:112 - Login successful
+2025-03-03 10:57:50 INFO  TC004_AddAssetTest:13 - ***** Starting TC004_AddAssetTest *****
+2025-03-03 10:57:52 INFO  TC004_AddAssetTest:20 - Clicked on 'Add Asset' button
+2025-03-03 10:57:53 INFO  TC004_AddAssetTest:25 - Verified 'Create New Asset' page is displayed
+2025-03-03 10:57:53 INFO  TC004_AddAssetTest:28 - Entering Asset Details...
+2025-03-03 10:57:56 INFO  TC004_AddAssetTest:41 - Entered General Asset Details
+2025-03-03 10:57:57 INFO  TC004_AddAssetTest:45 - entered AnsiCeStandard
+2025-03-03 10:57:57 INFO  TC004_AddAssetTest:47 - entered WheelDriveType
+2025-03-03 10:57:57 INFO  TC004_AddAssetTest:49 - entered DriveTrain
+2025-03-03 10:57:57 INFO  TC004_AddAssetTest:51 - entered EngineSerialNumber
+2025-03-03 10:57:57 INFO  TC004_AddAssetTest:54 - entered Configuration Details
+2025-03-03 10:58:00 INFO  TC004_AddAssetTest:86 - Asset Details Entered Successfully!
+2025-03-03 10:58:03 INFO  TC004_AddAssetTest:96 - Clicked on 'Save' button
+2025-03-03 10:58:05 INFO  TC004_AddAssetTest:100 - ***** TC004_AddAssetTest PASSED *****
+2025-03-03 10:58:05 INFO  TC004_AddAssetTest:106 - ***** Finished TC004_AddAssetTest *****
+2025-03-03 10:58:18 INFO  TC006_AddLeaseTest:104 - Performing login...
+2025-03-03 10:58:22 INFO  TC006_AddLeaseTest:112 - Login successful
+2025-03-03 10:58:22 INFO  TC006_AddLeaseTest:13 - ***** Starting TC006_AddLeaseTest *****
+2025-03-03 10:58:22 INFO  TC006_AddLeaseTest:19 - Navigating to Lease Page...
+2025-03-03 10:58:28 INFO  TC006_AddLeaseTest:21 - Clicked on 'Add Lease' button
+2025-03-03 10:58:28 INFO  TC006_AddLeaseTest:26 - Verified 'New Lease' page is displayed
+2025-03-03 10:58:28 INFO  TC006_AddLeaseTest:29 - Filling Lease Details...
+2025-03-03 10:58:39 INFO  TC006_AddLeaseTest:38 - Adding Machine Details...
+2025-03-03 10:58:43 INFO  TC006_AddLeaseTest:52 - All lease details entered successfully!
+2025-03-03 10:58:43 INFO  TC006_AddLeaseTest:56 - Clicked on 'Submit' button
+2025-03-03 10:58:46 INFO  TC006_AddLeaseTest:61 - ***** TC006_AddLeaseTest PASSED *****
+2025-03-03 10:58:46 INFO  TC006_AddLeaseTest:67 - ***** Finished TC006_AddLeaseTest *****
+2025-03-03 10:59:02 INFO  TC007_AddNewOperatorTest:104 - Performing login...
+2025-03-03 10:59:05 INFO  TC007_AddNewOperatorTest:112 - Login successful
+2025-03-03 10:59:05 INFO  TC007_AddNewOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-03 10:59:06 INFO  TC007_AddNewOperatorTest:19 - Navigated to Operators Page
+2025-03-03 10:59:10 INFO  TC007_AddNewOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-03 10:59:11 INFO  TC007_AddNewOperatorTest:31 - Verified 'Add Operator' page is displayed
+2025-03-03 10:59:11 INFO  TC007_AddNewOperatorTest:34 - Filling Operator Details...
+2025-03-03 10:59:14 INFO  TC007_AddNewOperatorTest:51 - All operator details entered successfully!
+2025-03-03 10:59:14 INFO  TC007_AddNewOperatorTest:55 - Clicked on 'Save' button
+2025-03-03 10:59:16 INFO  TC007_AddNewOperatorTest:61 - ***** TC007_AddOperatorTest PASSED *****
+2025-03-03 10:59:16 INFO  TC007_AddNewOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
