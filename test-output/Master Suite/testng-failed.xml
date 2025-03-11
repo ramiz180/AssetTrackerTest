@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="testCases.TC007_AddNewOperatorTest">
+      <class name="testCases.TC008_RejoinOperatorTest">
         <methods>
           <include name="verify_add_new_operator"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC007_AddNewOperatorTest -->
+      </class> <!-- testCases.TC008_RejoinOperatorTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

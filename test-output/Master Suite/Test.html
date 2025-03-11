@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 03 10:56:50 IST 2025</td>
+<td>Started on:</td><td>Tue Mar 11 10:24:05 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>149 seconds (149120 ms)</td>
+<tr><td>Total time:</td><td>41 seconds (41690 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,45 +76,59 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC003_AssetPageTest.validateSearchFunctionality()'><b>validateSearchFunctionality</b><br>Test class: testCases.TC003_AssetPageTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC003_AssetPageTest@2ce86164</td></tr>
-<tr>
-<td title='testCases.TC003_AssetPageTest.validateCreateNewAssetPage()'><b>validateCreateNewAssetPage</b><br>Test class: testCases.TC003_AssetPageTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC003_AssetPageTest@2ce86164</td></tr>
-<tr>
-<td title='testCases.TC007_AddNewOperatorTest.verify_add_new_operator()'><b>verify_add_new_operator</b><br>Test class: testCases.TC007_AddNewOperatorTest</td>
-<td></td>
-<td>11</td>
-<td>testCases.TC007_AddNewOperatorTest@fd46303</td></tr>
-<tr>
-<td title='testCases.TC004_AddAssetTest.verify_add_new_asset()'><b>verify_add_new_asset</b><br>Test class: testCases.TC004_AddAssetTest</td>
-<td></td>
+<td title='testCases.TC008_RejoinOperatorTest.verify_add_new_operator()'><b>verify_add_new_operator</b><br>Test class: testCases.TC008_RejoinOperatorTest</td>
+<td><div><pre>java.lang.AssertionError: Test failed: Element &lt;input class=&quot;text-black focus:outline-none focus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs shadow-none&quot; type=&quot;date&quot;&gt; is not reachable by keyboard
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [29b33499-7cef-45bd-85f9-b9013ce7cbf7, sendKeysToElement {id=38dabfbe-79af-4130-924f-3c6725d1ee81, value=[Ljava.lang.CharSequence;@9596ce8}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (29b33499-7cef-45bd-85f9-b9013ce7cbf7)] -&gt; xpath: //label[contains(.,&apos;oining&apos;)]/following-sibling::input]
+Session ID: 29b33499-7cef-45bd-85f9-b9013ce7cbf7
+	at testCases.TC008_RejoinOperatorTest.verify_add_new_operator(TC008_RejoinOperatorTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1378612814", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1378612814'><pre>java.lang.AssertionError: Test failed: Element &lt;input class=&quot;text-black focus:outline-none focus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs shadow-none&quot; type=&quot;date&quot;&gt; is not reachable by keyboard
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [29b33499-7cef-45bd-85f9-b9013ce7cbf7, sendKeysToElement {id=38dabfbe-79af-4130-924f-3c6725d1ee81, value=[Ljava.lang.CharSequence;@9596ce8}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (29b33499-7cef-45bd-85f9-b9013ce7cbf7)] -&gt; xpath: //label[contains(.,&apos;oining&apos;)]/following-sibling::input]
+Session ID: 29b33499-7cef-45bd-85f9-b9013ce7cbf7
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC008_RejoinOperatorTest.verify_add_new_operator(TC008_RejoinOperatorTest.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
 <td>14</td>
-<td>testCases.TC004_AddAssetTest@5e8f9e2d</td></tr>
-<tr>
-<td title='testCases.TC003_AssetPageTest.validateDashboardMetrics()'><b>validateDashboardMetrics</b><br>Test class: testCases.TC003_AssetPageTest</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC003_AssetPageTest@2ce86164</td></tr>
-<tr>
-<td title='testCases.TC006_AddLeaseTest.verify_add_new_lease()'><b>verify_add_new_lease</b><br>Test class: testCases.TC006_AddLeaseTest</td>
-<td></td>
-<td>24</td>
-<td>testCases.TC006_AddLeaseTest@51df223b</td></tr>
-<tr>
-<td title='testCases.TC003_AssetPageTest.validateExportExcel()'><b>validateExportExcel</b><br>Test class: testCases.TC003_AssetPageTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC003_AssetPageTest@2ce86164</td></tr>
-<tr>
-<td title='testCases.TC002_LoginTest.verify_login()'><b>verify_login</b><br>Test class: testCases.TC002_LoginTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC002_LoginTest@63c5efee</td></tr>
+<td>testCases.TC008_RejoinOperatorTest@76a36b71</td></tr>
 </table><p>
 </body>
 </html>

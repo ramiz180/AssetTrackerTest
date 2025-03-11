@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC006_AddLeaseTest">
+      <class name="testCases.TC008_RejoinOperatorTest">
         <methods>
+          <include name="verify_add_new_operator"/>
           <include name="tearDown"/>
-          <include name="verify_add_new_lease"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC006_AddLeaseTest -->
+      </class> <!-- testCases.TC008_RejoinOperatorTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

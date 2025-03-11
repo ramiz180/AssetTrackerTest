@@ -18,10 +18,10 @@ public class AddOperatorPage extends BasePage {
     @FindBy(xpath = "//input[@placeholder='e.g. John Doe']")
     WebElement nameInput;
 
-    @FindBy(xpath = "//input[@placeholder='Enter 10-digit mobile no']")
+    @FindBy(xpath = "//label[contains(.,'Mobile')]/following-sibling::input")
     WebElement mobileNumberInput;
 
-    @FindBy(xpath = "//input[@placeholder='Enter valid driving license']")
+    @FindBy(xpath = "//input[contains(@placeholder,'driving license')]")
     WebElement drivingLicenseInput;
 
     @FindBy(xpath = "//input[@placeholder='Enter your bank account number']")
@@ -54,7 +54,7 @@ public class AddOperatorPage extends BasePage {
     WebElement operatorSalesPersonDropdown;
 
     // **Date Picker**
-    @FindBy(xpath = "//input[@placeholder='07-03-2021']")
+    @FindBy(xpath = "//label[contains(.,'oining')]/following-sibling::input")
     WebElement dateOfJoiningInput;
 
     // **Buttons**

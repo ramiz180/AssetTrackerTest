@@ -69,6 +69,17 @@ public class OperatorsPage extends BasePage {
     @FindBy(xpath="//div[@class='MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root']")
     private List<WebElement> AadhaarSearchSuggestions;
 
+    public boolean IsVisibleAadhaarSuggestions() {
+    	if(AadhaarSearchSuggestions.size()!=0)
+    		return true;
+    	else
+    		return false;
+    }
+    
+    public void SetAadhaarSuggestions(int i) {
+    	AadhaarSearchSuggestions.get(i).click();
+    }
+    
     @FindBy(xpath="//input[@type='date']")
     private WebElement DateofBirth;
     
@@ -161,6 +172,8 @@ public class OperatorsPage extends BasePage {
     {
     	RejoinButton.click();
     }
+    
+    
 
     // Check if Export Success Message is Displayed
     @FindBy(xpath = "//div[contains(text(),'Data exported successfully')]")

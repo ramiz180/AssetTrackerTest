@@ -25,7 +25,7 @@ public class TC002_LoginTest extends BaseClass{
 		catch(Exception e)
 		{
 			Assert.fail();
-			logger.info(e+"****** TC_002_LoginTest case FAILED*****");
+			logger.info(e.getMessage()+"****** TC_002_LoginTest case FAILED*****");
 		}
 		logger.info("****** Finished TC_002_LoginTest *****");
 	}

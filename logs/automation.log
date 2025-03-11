@@ -1,63 +1,345 @@
-2025-03-03 10:56:50 INFO  Utils:112 - [TestNG] Running:
+2025-03-11 00:32:08 INFO  Utils:112 - [TestNG] Running:
   D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
 
-2025-03-03 10:57:06 INFO  TC002_LoginTest:104 - Performing login...
-2025-03-03 10:57:10 INFO  TC002_LoginTest:112 - Login successful
-2025-03-03 10:57:10 INFO  TC002_LoginTest:14 - ****** Startign TC_002_LoginTest *****
-2025-03-03 10:57:10 INFO  TC002_LoginTest:23 - ****** TC_002_LoginTest case PASSED*****
-2025-03-03 10:57:10 INFO  TC002_LoginTest:30 - ****** Finished TC_002_LoginTest *****
-2025-03-03 10:57:25 INFO  TC003_AssetPageTest:104 - Performing login...
-2025-03-03 10:57:28 INFO  TC003_AssetPageTest:112 - Login successful
-2025-03-03 10:57:28 INFO  TC003_AssetPageTest:23 - ****** Waiting for Asset Page to Load Fully ******
-2025-03-03 10:57:30 INFO  TC003_AssetPageTest:30 - ****** Validating Asset Dashboard Metrics ******
-2025-03-03 10:57:30 INFO  TC003_AssetPageTest:51 - ****** Dashboard Metrics Validation Completed ******
-2025-03-03 10:57:31 INFO  TC003_AssetPageTest:57 - ****** Validating Asset Search Functionality ******
-2025-03-03 10:57:32 INFO  TC003_AssetPageTest:63 - Entered search query: MTU035
-2025-03-03 10:57:32 INFO  TC003_AssetPageTest:67 - First search result displayed: MTU035
-2025-03-03 10:57:32 INFO  TC003_AssetPageTest:72 - ****** Asset Search Validation PASSED ******
-2025-03-03 10:57:32 INFO  TC003_AssetPageTest:107 - ****** Validating Export Excel Functionality ******
-2025-03-03 10:57:32 INFO  TC003_AssetPageTest:112 - Clicked on 'Export Excel' button
-2025-03-03 10:57:33 INFO  TC003_AssetPageTest:125 - Exported file found: assets_03-03-2025.xlsx
-2025-03-03 10:57:33 INFO  TC003_AssetPageTest:127 - ****** Export Excel Validation PASSED ******
-2025-03-03 10:57:33 INFO  TC003_AssetPageTest:150 - ****** Validating 'Create New Asset' Page ******
-2025-03-03 10:57:33 INFO  TC003_AssetPageTest:155 - Clicked on 'Add Asset' button
-2025-03-03 10:57:33 INFO  TC003_AssetPageTest:162 - ****** 'Create New Asset' Page Validation PASSED ******
-2025-03-03 10:57:47 INFO  TC004_AddAssetTest:104 - Performing login...
-2025-03-03 10:57:50 INFO  TC004_AddAssetTest:112 - Login successful
-2025-03-03 10:57:50 INFO  TC004_AddAssetTest:13 - ***** Starting TC004_AddAssetTest *****
-2025-03-03 10:57:52 INFO  TC004_AddAssetTest:20 - Clicked on 'Add Asset' button
-2025-03-03 10:57:53 INFO  TC004_AddAssetTest:25 - Verified 'Create New Asset' page is displayed
-2025-03-03 10:57:53 INFO  TC004_AddAssetTest:28 - Entering Asset Details...
-2025-03-03 10:57:56 INFO  TC004_AddAssetTest:41 - Entered General Asset Details
-2025-03-03 10:57:57 INFO  TC004_AddAssetTest:45 - entered AnsiCeStandard
-2025-03-03 10:57:57 INFO  TC004_AddAssetTest:47 - entered WheelDriveType
-2025-03-03 10:57:57 INFO  TC004_AddAssetTest:49 - entered DriveTrain
-2025-03-03 10:57:57 INFO  TC004_AddAssetTest:51 - entered EngineSerialNumber
-2025-03-03 10:57:57 INFO  TC004_AddAssetTest:54 - entered Configuration Details
-2025-03-03 10:58:00 INFO  TC004_AddAssetTest:86 - Asset Details Entered Successfully!
-2025-03-03 10:58:03 INFO  TC004_AddAssetTest:96 - Clicked on 'Save' button
-2025-03-03 10:58:05 INFO  TC004_AddAssetTest:100 - ***** TC004_AddAssetTest PASSED *****
-2025-03-03 10:58:05 INFO  TC004_AddAssetTest:106 - ***** Finished TC004_AddAssetTest *****
-2025-03-03 10:58:18 INFO  TC006_AddLeaseTest:104 - Performing login...
-2025-03-03 10:58:22 INFO  TC006_AddLeaseTest:112 - Login successful
-2025-03-03 10:58:22 INFO  TC006_AddLeaseTest:13 - ***** Starting TC006_AddLeaseTest *****
-2025-03-03 10:58:22 INFO  TC006_AddLeaseTest:19 - Navigating to Lease Page...
-2025-03-03 10:58:28 INFO  TC006_AddLeaseTest:21 - Clicked on 'Add Lease' button
-2025-03-03 10:58:28 INFO  TC006_AddLeaseTest:26 - Verified 'New Lease' page is displayed
-2025-03-03 10:58:28 INFO  TC006_AddLeaseTest:29 - Filling Lease Details...
-2025-03-03 10:58:39 INFO  TC006_AddLeaseTest:38 - Adding Machine Details...
-2025-03-03 10:58:43 INFO  TC006_AddLeaseTest:52 - All lease details entered successfully!
-2025-03-03 10:58:43 INFO  TC006_AddLeaseTest:56 - Clicked on 'Submit' button
-2025-03-03 10:58:46 INFO  TC006_AddLeaseTest:61 - ***** TC006_AddLeaseTest PASSED *****
-2025-03-03 10:58:46 INFO  TC006_AddLeaseTest:67 - ***** Finished TC006_AddLeaseTest *****
-2025-03-03 10:59:02 INFO  TC007_AddNewOperatorTest:104 - Performing login...
-2025-03-03 10:59:05 INFO  TC007_AddNewOperatorTest:112 - Login successful
-2025-03-03 10:59:05 INFO  TC007_AddNewOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
-2025-03-03 10:59:06 INFO  TC007_AddNewOperatorTest:19 - Navigated to Operators Page
-2025-03-03 10:59:10 INFO  TC007_AddNewOperatorTest:23 - Clicked on 'Add Operator' button
-2025-03-03 10:59:11 INFO  TC007_AddNewOperatorTest:31 - Verified 'Add Operator' page is displayed
-2025-03-03 10:59:11 INFO  TC007_AddNewOperatorTest:34 - Filling Operator Details...
-2025-03-03 10:59:14 INFO  TC007_AddNewOperatorTest:51 - All operator details entered successfully!
-2025-03-03 10:59:14 INFO  TC007_AddNewOperatorTest:55 - Clicked on 'Save' button
-2025-03-03 10:59:16 INFO  TC007_AddNewOperatorTest:61 - ***** TC007_AddOperatorTest PASSED *****
-2025-03-03 10:59:16 INFO  TC007_AddNewOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 00:32:47 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 00:32:50 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 00:32:50 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 00:32:51 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 00:32:55 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 00:33:05 ERROR TC008_RejoinOperatorTest:60 - Test failed: Index 0 out of bounds for length 0
+2025-03-11 00:33:05 INFO  TC008_RejoinOperatorTest:63 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 00:35:14 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 00:35:31 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 00:35:34 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 00:35:34 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 00:35:34 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 00:35:39 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 00:35:46 INFO  TC008_RejoinOperatorTest:64 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 00:37:21 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 00:37:35 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 00:37:39 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 00:37:39 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 00:37:39 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 00:37:43 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 00:37:50 INFO  TC008_RejoinOperatorTest:65 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 00:45:39 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 00:45:59 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 00:46:02 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 00:46:02 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 00:46:02 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 00:46:05 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 00:46:10 ERROR TC008_RejoinOperatorTest:64 - Test failed: Index -1 out of bounds for length 8
+2025-03-11 00:46:10 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 00:48:13 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 00:48:26 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 00:48:29 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 00:48:29 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 00:48:29 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 00:48:33 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 00:48:40 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 00:48:40 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 00:48:52 ERROR TC008_RejoinOperatorTest:64 - Test failed: Unable to locate element: //input[@placeholder='Enter 10-digit mobile no']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [949665f3-9797-412b-8a67-b71f5f4fb667, findElement {using=xpath, value=//input[@placeholder='Enter 10-digit mobile no']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16496, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 949665f3-9797-412b-8a67-b71f5f4fb667
+2025-03-11 00:48:52 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 00:57:34 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 00:57:52 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 00:57:55 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 00:57:55 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 00:57:56 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 00:58:00 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 00:58:06 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 00:58:06 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 00:58:09 ERROR TC008_RejoinOperatorTest:64 - Test failed: Element <select id="" class="shadow-none focus:outline-none text-blackfocus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs" name=""> is not clickable at point (303,736) because another element <div class="flex mt-5 border bg-white fixed bottom-0 left-0 right-0 pr-6 h-12 items-center justify-end text-xs gap-3 "> obscures it
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2b12868f-cb36-4ced-9a30-faea266edbc5, clickElement {id=1d90ec83-829b-49cd-9344-20064d943334}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17428, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[[[FirefoxDriver: firefox on windows (2b12868f-cb36-4ced-9a30-faea266edbc5)] -> xpath: //select[@placeholder='Operator Sales Person']]] -> tag name: option]
+Session ID: 2b12868f-cb36-4ced-9a30-faea266edbc5
+2025-03-11 00:58:09 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 15 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Ramiz\AppData\Local\Temp\testng-eclipse-53155322\testng-customsuite.xml
+
+2025-03-11 01:00:10 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2025-03-11 01:00:10 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@324c64cd: 33 ms
+2025-03-11 01:00:11 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@ec2bf82: 137 ms
+2025-03-11 01:00:11 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@72bca894: 18 ms
+2025-03-11 01:00:11 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@238b521e: 58 ms
+2025-03-11 01:00:11 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@320e400: 12 ms
+2025-03-11 01:00:11 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6ebd78d1: 11 ms
+2025-03-11 01:00:11 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@436390f4: 0 ms
+2025-03-11 01:00:18 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 01:00:39 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 01:00:42 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 01:00:42 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 01:00:43 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 01:00:46 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 01:00:53 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 01:00:53 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 01:00:55 ERROR TC008_RejoinOperatorTest:64 - Test failed: Element <select id="" class="shadow-none focus:outline-none text-blackfocus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs" name=""> is not clickable at point (303,736) because another element <div class="flex mt-5 border bg-white fixed bottom-0 left-0 right-0 pr-6 h-12 items-center justify-end text-xs gap-3 "> obscures it
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0bc862fc-ee94-476b-ab61-e9a220e69959, clickElement {id=97050435-2e93-4aa9-a400-018bb6d270b7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11080, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[[[FirefoxDriver: firefox on windows (0bc862fc-ee94-476b-ab61-e9a220e69959)] -> xpath: //select[@placeholder='Operator Sales Person']]] -> tag name: option]
+Session ID: 0bc862fc-ee94-476b-ab61-e9a220e69959
+2025-03-11 01:00:55 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 01:42:33 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 01:42:52 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 01:42:54 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 01:42:54 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 01:42:55 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 01:42:58 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 01:43:05 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 01:43:05 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 01:43:18 ERROR TC008_RejoinOperatorTest:64 - Test failed: Unable to locate element: //input[@placeholder='07-03-2021']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4f9ef649-e1e7-4271-86e8-6d3343f05def, findElement {value=//input[@placeholder='07-03-2021'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11512, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 4f9ef649-e1e7-4271-86e8-6d3343f05def
+2025-03-11 01:43:18 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 01:58:23 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 01:58:42 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 01:58:48 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 01:58:48 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 01:58:48 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 01:58:52 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 01:59:01 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 01:59:01 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 01:59:04 ERROR TC008_RejoinOperatorTest:64 - Test failed: Element <input class="text-black focus:outline-none focus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs shadow-none" type="date"> is not reachable by keyboard
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [02686a5c-28a3-43c4-8a69-0fb4fbed7b6d, sendKeysToElement {value=[Ljava.lang.CharSequence;@9596ce8, id=55f1e76c-f297-4742-9b3b-56b2be8b6f24}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15776, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (02686a5c-28a3-43c4-8a69-0fb4fbed7b6d)] -> xpath: //label[contains(.,'oining')]/following-sibling::input]
+Session ID: 02686a5c-28a3-43c4-8a69-0fb4fbed7b6d
+2025-03-11 01:59:04 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 02:00:20 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 02:00:37 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 02:00:40 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 02:00:40 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 02:00:40 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 02:00:44 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 02:00:51 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 02:00:51 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 02:00:53 INFO  TC008_RejoinOperatorTest:51 - All operator details entered successfully!
+2025-03-11 02:00:53 INFO  TC008_RejoinOperatorTest:55 - Clicked on 'Save' button
+2025-03-11 02:01:15 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 02:01:46 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 02:02:03 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 02:02:06 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 02:02:06 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 02:02:06 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 02:02:10 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 02:02:16 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 02:02:16 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 02:02:19 ERROR TC008_RejoinOperatorTest:64 - Test failed: Element <input class="text-black focus:outline-none focus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs shadow-none" type="date"> is not reachable by keyboard
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a055b9bc-1594-446e-916c-3566159b1f95, sendKeysToElement {id=03425265-eabb-40d9-a7fa-1ad854ff6f98, value=[Ljava.lang.CharSequence;@9596ce8}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10616, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (a055b9bc-1594-446e-916c-3566159b1f95)] -> xpath: //label[contains(.,'oining')]/following-sibling::input]
+Session ID: a055b9bc-1594-446e-916c-3566159b1f95
+2025-03-11 02:02:19 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 10:07:00 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 10:07:38 INFO  TC002_LoginTest:104 - Performing login...
+2025-03-11 10:07:43 INFO  TC002_LoginTest:112 - Login successful
+2025-03-11 10:07:43 INFO  TC002_LoginTest:14 - ****** Startign TC_002_LoginTest *****
+2025-03-11 10:07:44 INFO  TC002_LoginTest:23 - ****** TC_002_LoginTest case PASSED*****
+2025-03-11 10:07:44 INFO  TC002_LoginTest:30 - ****** Finished TC_002_LoginTest *****
+2025-03-11 10:08:10 INFO  TC003_AssetPageTest:104 - Performing login...
+2025-03-11 10:08:13 INFO  TC003_AssetPageTest:112 - Login successful
+2025-03-11 10:08:13 INFO  TC003_AssetPageTest:23 - ****** Waiting for Asset Page to Load Fully ******
+2025-03-11 10:08:17 INFO  TC003_AssetPageTest:30 - ****** Validating Asset Dashboard Metrics ******
+2025-03-11 10:08:17 INFO  TC003_AssetPageTest:51 - ****** Dashboard Metrics Validation Completed ******
+2025-03-11 10:08:17 INFO  TC003_AssetPageTest:57 - ****** Validating Asset Search Functionality ******
+2025-03-11 10:08:18 INFO  TC003_AssetPageTest:63 - Entered search query: MTU035
+2025-03-11 10:08:18 INFO  TC003_AssetPageTest:67 - First search result displayed: MTU035
+2025-03-11 10:08:18 INFO  TC003_AssetPageTest:72 - ****** Asset Search Validation PASSED ******
+2025-03-11 10:08:18 INFO  TC003_AssetPageTest:107 - ****** Validating Export Excel Functionality ******
+2025-03-11 10:08:19 INFO  TC003_AssetPageTest:112 - Clicked on 'Export Excel' button
+2025-03-11 10:08:19 INFO  TC003_AssetPageTest:125 - Exported file found: assets_11-03-2025.xlsx
+2025-03-11 10:08:19 INFO  TC003_AssetPageTest:127 - ****** Export Excel Validation PASSED ******
+2025-03-11 10:08:19 INFO  TC003_AssetPageTest:150 - ****** Validating 'Create New Asset' Page ******
+2025-03-11 10:08:20 INFO  TC003_AssetPageTest:155 - Clicked on 'Add Asset' button
+2025-03-11 10:08:20 INFO  TC003_AssetPageTest:162 - ****** 'Create New Asset' Page Validation PASSED ******
+2025-03-11 10:08:51 INFO  TC004_AddAssetTest:104 - Performing login...
+2025-03-11 10:08:54 INFO  TC004_AddAssetTest:112 - Login successful
+2025-03-11 10:08:54 INFO  TC004_AddAssetTest:13 - ***** Starting TC004_AddAssetTest *****
+2025-03-11 10:09:00 INFO  TC004_AddAssetTest:20 - Clicked on 'Add Asset' button
+2025-03-11 10:09:00 INFO  TC004_AddAssetTest:25 - Verified 'Create New Asset' page is displayed
+2025-03-11 10:09:00 INFO  TC004_AddAssetTest:28 - Entering Asset Details...
+2025-03-11 10:09:05 INFO  TC004_AddAssetTest:41 - Entered General Asset Details
+2025-03-11 10:09:05 INFO  TC004_AddAssetTest:45 - entered AnsiCeStandard
+2025-03-11 10:09:05 INFO  TC004_AddAssetTest:47 - entered WheelDriveType
+2025-03-11 10:09:06 INFO  TC004_AddAssetTest:49 - entered DriveTrain
+2025-03-11 10:09:06 INFO  TC004_AddAssetTest:51 - entered EngineSerialNumber
+2025-03-11 10:09:06 INFO  TC004_AddAssetTest:54 - entered Configuration Details
+2025-03-11 10:09:09 INFO  TC004_AddAssetTest:86 - Asset Details Entered Successfully!
+2025-03-11 10:09:13 INFO  TC004_AddAssetTest:96 - Clicked on 'Save' button
+2025-03-11 10:09:14 INFO  TC004_AddAssetTest:100 - ***** TC004_AddAssetTest PASSED *****
+2025-03-11 10:09:14 INFO  TC004_AddAssetTest:106 - ***** Finished TC004_AddAssetTest *****
+2025-03-11 10:09:36 INFO  TC006_AddLeaseTest:104 - Performing login...
+2025-03-11 10:09:39 INFO  TC006_AddLeaseTest:112 - Login successful
+2025-03-11 10:09:39 INFO  TC006_AddLeaseTest:13 - ***** Starting TC006_AddLeaseTest *****
+2025-03-11 10:09:40 INFO  TC006_AddLeaseTest:19 - Navigating to Lease Page...
+2025-03-11 10:09:46 INFO  TC006_AddLeaseTest:21 - Clicked on 'Add Lease' button
+2025-03-11 10:09:46 INFO  TC006_AddLeaseTest:26 - Verified 'New Lease' page is displayed
+2025-03-11 10:09:46 INFO  TC006_AddLeaseTest:29 - Filling Lease Details...
+2025-03-11 10:09:57 INFO  TC006_AddLeaseTest:38 - Adding Machine Details...
+2025-03-11 10:10:01 INFO  TC006_AddLeaseTest:52 - All lease details entered successfully!
+2025-03-11 10:10:01 INFO  TC006_AddLeaseTest:56 - Clicked on 'Submit' button
+2025-03-11 10:10:03 INFO  TC006_AddLeaseTest:61 - ***** TC006_AddLeaseTest PASSED *****
+2025-03-11 10:10:03 INFO  TC006_AddLeaseTest:67 - ***** Finished TC006_AddLeaseTest *****
+2025-03-11 10:10:30 INFO  TC007_AddNewOperatorTest:104 - Performing login...
+2025-03-11 10:10:34 INFO  TC007_AddNewOperatorTest:112 - Login successful
+2025-03-11 10:10:34 INFO  TC007_AddNewOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 10:10:35 INFO  TC007_AddNewOperatorTest:19 - Navigated to Operators Page
+2025-03-11 10:10:42 INFO  TC007_AddNewOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 10:10:43 INFO  TC007_AddNewOperatorTest:31 - Verified 'Add Operator' page is displayed
+2025-03-11 10:10:43 INFO  TC007_AddNewOperatorTest:34 - Filling Operator Details...
+2025-03-11 10:10:46 INFO  TC007_AddNewOperatorTest:51 - All operator details entered successfully!
+2025-03-11 10:10:47 INFO  TC007_AddNewOperatorTest:55 - Clicked on 'Save' button
+2025-03-11 10:10:49 INFO  TC007_AddNewOperatorTest:61 - ***** TC007_AddOperatorTest PASSED *****
+2025-03-11 10:10:49 INFO  TC007_AddNewOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 10:11:10 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 10:11:13 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 10:11:13 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 10:11:13 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 10:11:17 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 10:11:25 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 10:11:25 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 10:11:27 ERROR TC008_RejoinOperatorTest:64 - Test failed: Element <input class="text-black focus:outline-none focus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs shadow-none" type="date"> is not reachable by keyboard
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [592f4b38-7c94-4ffb-a491-7f52f6d6d347, sendKeysToElement {id=45a20e01-93b4-4168-a04e-ab224ac57e7a, value=[Ljava.lang.CharSequence;@85ab964}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14728, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (592f4b38-7c94-4ffb-a491-7f52f6d6d347)] -> xpath: //label[contains(.,'oining')]/following-sibling::input]
+Session ID: 592f4b38-7c94-4ffb-a491-7f52f6d6d347
+2025-03-11 10:11:27 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 10:12:25 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 10:13:00 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 10:13:25 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 10:13:29 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 10:13:29 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 10:13:29 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 10:13:35 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 10:13:42 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 10:13:42 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 10:13:45 ERROR TC008_RejoinOperatorTest:64 - Test failed: Element <input class="text-black focus:outline-none focus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs shadow-none" type="date"> is not reachable by keyboard
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [089bc43d-457d-4ed7-b5f4-9a7949778f1c, sendKeysToElement {value=[Ljava.lang.CharSequence;@9596ce8, id=62f8e87c-8089-4d15-b099-86dee96d9160}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14964, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (089bc43d-457d-4ed7-b5f4-9a7949778f1c)] -> xpath: //label[contains(.,'oining')]/following-sibling::input]
+Session ID: 089bc43d-457d-4ed7-b5f4-9a7949778f1c
+2025-03-11 10:13:45 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 10:23:11 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 10:23:26 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 10:23:29 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 10:23:29 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 10:23:30 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 10:23:34 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 10:23:41 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 10:23:41 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 10:23:44 ERROR TC008_RejoinOperatorTest:64 - Test failed: Element <input class="text-black focus:outline-none focus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs shadow-none" type="date"> is not reachable by keyboard
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [81df758c-731e-4ddd-8ef2-9b936bbe0fd1, sendKeysToElement {id=96443484-aff5-45b1-a335-3ae4014885b1, value=[Ljava.lang.CharSequence;@75ae4a1f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14152, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (81df758c-731e-4ddd-8ef2-9b936bbe0fd1)] -> xpath: //label[contains(.,'oining')]/following-sibling::input]
+Session ID: 81df758c-731e-4ddd-8ef2-9b936bbe0fd1
+2025-03-11 10:23:44 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
+2025-03-11 10:24:05 INFO  Utils:112 - [TestNG] Running:
+  D:\Selenium Project\Asset Tracker\OpencartV121\master.xml
+
+2025-03-11 10:24:27 INFO  TC008_RejoinOperatorTest:104 - Performing login...
+2025-03-11 10:24:30 INFO  TC008_RejoinOperatorTest:112 - Login successful
+2025-03-11 10:24:30 INFO  TC008_RejoinOperatorTest:13 - ***** Starting TC007_AddOperatorTest *****
+2025-03-11 10:24:31 INFO  TC008_RejoinOperatorTest:19 - Navigated to Operators Page
+2025-03-11 10:24:35 INFO  TC008_RejoinOperatorTest:23 - Clicked on 'Add Operator' button
+2025-03-11 10:24:42 INFO  TC008_RejoinOperatorTest:35 - Verified 'Add Operator' page is displayed
+2025-03-11 10:24:42 INFO  TC008_RejoinOperatorTest:38 - Filling Operator Details...
+2025-03-11 10:24:45 ERROR TC008_RejoinOperatorTest:64 - Test failed: Element <input class="text-black focus:outline-none focus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs shadow-none" type="date"> is not reachable by keyboard
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [29b33499-7cef-45bd-85f9-b9013ce7cbf7, sendKeysToElement {id=38dabfbe-79af-4130-924f-3c6725d1ee81, value=[Ljava.lang.CharSequence;@9596ce8}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (29b33499-7cef-45bd-85f9-b9013ce7cbf7)] -> xpath: //label[contains(.,'oining')]/following-sibling::input]
+Session ID: 29b33499-7cef-45bd-85f9-b9013ce7cbf7
+2025-03-11 10:24:45 INFO  TC008_RejoinOperatorTest:67 - ***** Finished TC007_AddOperatorTest *****
