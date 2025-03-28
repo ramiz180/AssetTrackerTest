@@ -80,10 +80,6 @@ public class TC003_AssetPageTest extends BaseClass {
         assetPage.selectAssetCategory("Active");
         logger.info("Filtered assets by 'Active' category");
 
-        // Add verification that only active assets are displayed
-        // Example:
-        // Assert.assertTrue(assetPage.isLeaseStatusDisplayed("Active"), "Active filter not working!");
-
         logger.info("****** Asset Category Filter PASSED ******");
     }
 
@@ -146,15 +142,13 @@ public class TC003_AssetPageTest extends BaseClass {
     }
     
     @Test(priority = 6, groups = {"Sanity", "Regression"})
-    public void validateCreateNewAssetPage() {
+    public void validateCreateNewAssetPage() throws InterruptedException {
         logger.info("****** Validating 'Create New Asset' Page ******");
         AssetPage assetPage = new AssetPage(driver);
-
+        Thread.sleep(2000);
         // Click Add Asset
         assetPage.clickAddAsset();
         logger.info("Clicked on 'Add Asset' button");
-
-        // Verify "Create New Asset" page is displayed
         AddAssetPage addAssetPage = new AddAssetPage(driver);
         boolean isPageDisplayed = addAssetPage.isCreateNewAssetPageDisplayed();
         Assert.assertTrue(isPageDisplayed, "'Create New Asset' page did not load!");

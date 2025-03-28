@@ -18,8 +18,7 @@
       <class name="testCases.TC003_AssetPageTest"/>
       <class name="testCases.TC004_AddAssetTest"/>
       <class name="testCases.TC006_AddLeaseTest"/>
-      <class name="testCases.TC007_AddNewOperatorTest"/>
-      -->
+      <class name="testCases.TC007_AddNewOperatorTest"/>-->
       <class name="testCases.TC008_RejoinOperatorTest"/>
       <!--<class name="testCases.TC003_LoginDDT"/>-->
     </classes>

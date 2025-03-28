@@ -62,7 +62,7 @@ public class AddAssetPage extends BasePage {
     @FindBy(xpath = "//select[@id='year-picker']")
     private WebElement yearOfManufacturingDropdown;
 
-    @FindBy(xpath = "//div[@title='Enter Category']//select[@class='text-black focus:outline-none focus:ring-1 focus:ring-blue-2 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs']")
+    @FindBy(xpath = "//div[@title='Enter Category']/select")
     private WebElement categoryDropdown;
 
     @FindBy(xpath = "//select[@id='ratings']")

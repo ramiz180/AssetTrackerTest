@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-11T10:24:05 IST" name="Master Suite" finished-at="2025-03-11T10:24:47 IST" duration-ms="41690">
+  <suite started-at="2025-03-22T02:41:03 IST" name="Master Suite" finished-at="2025-03-22T02:41:51 IST" duration-ms="48760">
     <groups>
       <group name="Sanity">
         <method signature="TC008_RejoinOperatorTest.verify_add_new_operator()[pri:1, instance:testCases.TC008_RejoinOperatorTest@76a36b71]" name="verify_add_new_operator" class="testCases.TC008_RejoinOperatorTest"/>
@@ -11,9 +11,9 @@
         <method signature="TC008_RejoinOperatorTest.verify_add_new_operator()[pri:1, instance:testCases.TC008_RejoinOperatorTest@76a36b71]" name="verify_add_new_operator" class="testCases.TC008_RejoinOperatorTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-03-11T10:24:05 IST" name="Test" finished-at="2025-03-11T10:24:47 IST" duration-ms="41690">
+    <test started-at="2025-03-22T02:41:03 IST" name="Test" finished-at="2025-03-22T02:41:51 IST" duration-ms="48760">
       <class name="testCases.TC008_RejoinOperatorTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_RejoinOperatorTest@76a36b71]" started-at="2025-03-11T10:24:06 IST" name="setup" finished-at="2025-03-11T10:24:30 IST" duration-ms="24556" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_RejoinOperatorTest@76a36b71]" started-at="2025-03-22T02:41:03 IST" name="setup" finished-at="2025-03-22T02:41:27 IST" duration-ms="24387" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,29 +29,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_add_new_operator()[pri:1, instance:testCases.TC008_RejoinOperatorTest@76a36b71]" started-at="2025-03-11T10:24:30 IST" name="verify_add_new_operator" finished-at="2025-03-11T10:24:45 IST" duration-ms="14735" status="FAIL">
+        <test-method signature="verify_add_new_operator()[pri:1, instance:testCases.TC008_RejoinOperatorTest@76a36b71]" started-at="2025-03-22T02:41:27 IST" name="verify_add_new_operator" finished-at="2025-03-22T02:41:50 IST" duration-ms="22309" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test failed: Element <input class="text-black focus:outline-none focus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs shadow-none" type="date"> is not reachable by keyboard
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [29b33499-7cef-45bd-85f9-b9013ce7cbf7, sendKeysToElement {id=38dabfbe-79af-4130-924f-3c6725d1ee81, value=[Ljava.lang.CharSequence;@9596ce8}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (29b33499-7cef-45bd-85f9-b9013ce7cbf7)] -> xpath: //label[contains(.,'oining')]/following-sibling::input]
-Session ID: 29b33499-7cef-45bd-85f9-b9013ce7cbf7]]>
+Command: [32f5c817-ffaf-4fda-ab04-122e6b2c6574, sendKeysToElement {value=[Ljava.lang.CharSequence;@6c1cfa53, id=a79037e5-1edd-4210-acde-8a31e0542447}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22300, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (32f5c817-ffaf-4fda-ab04-122e6b2c6574)] -> xpath: //label[contains(.,'oining')]/following-sibling::input]
+Session ID: 32f5c817-ffaf-4fda-ab04-122e6b2c6574]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Test failed: Element <input class="text-black focus:outline-none focus:ring-0 focus:border-none w-full border-none mt-2 p-2 bg-light-4 font-medium rounded-md text-xs shadow-none" type="date"> is not reachable by keyboard
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [29b33499-7cef-45bd-85f9-b9013ce7cbf7, sendKeysToElement {id=38dabfbe-79af-4130-924f-3c6725d1ee81, value=[Ljava.lang.CharSequence;@9596ce8}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (29b33499-7cef-45bd-85f9-b9013ce7cbf7)] -> xpath: //label[contains(.,'oining')]/following-sibling::input]
-Session ID: 29b33499-7cef-45bd-85f9-b9013ce7cbf7
+Command: [32f5c817-ffaf-4fda-ab04-122e6b2c6574, sendKeysToElement {value=[Ljava.lang.CharSequence;@6c1cfa53, id=a79037e5-1edd-4210-acde-8a31e0542447}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22300, moz:profile: C:\Users\Ramiz\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (32f5c817-ffaf-4fda-ab04-122e6b2c6574)] -> xpath: //label[contains(.,'oining')]/following-sibling::input]
+Session ID: 32f5c817-ffaf-4fda-ab04-122e6b2c6574
 at org.testng.Assert.fail(Assert.java:111)
-at testCases.TC008_RejoinOperatorTest.verify_add_new_operator(TC008_RejoinOperatorTest.java:65)
+at testCases.TC008_RejoinOperatorTest.verify_add_new_operator(TC008_RejoinOperatorTest.java:109)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -86,7 +86,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_add_new_operator -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_RejoinOperatorTest@76a36b71]" started-at="2025-03-11T10:24:45 IST" name="tearDown" finished-at="2025-03-11T10:24:47 IST" duration-ms="1727" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_RejoinOperatorTest@76a36b71]" started-at="2025-03-22T02:41:50 IST" name="tearDown" finished-at="2025-03-22T02:41:51 IST" duration-ms="1455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

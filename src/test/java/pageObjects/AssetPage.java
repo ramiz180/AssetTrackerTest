@@ -91,8 +91,9 @@ public class AssetPage extends BasePage{
 	    @FindBy(xpath = "//div[@title='You are now logged']")
 	    WebElement userEmail;
 	    
-	    public void clickAddAsset() {
+	    public void clickAddAsset() throws InterruptedException {
 	        addAssetButton.click();
+	        Thread.sleep(2000);
 	    }
 
 	    public void clickExportExcel() {
