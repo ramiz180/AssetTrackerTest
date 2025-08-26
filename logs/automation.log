@@ -1,0 +1,74 @@
+2025-08-27 00:29:12 INFO  TC001_LoginTest:106 - Performing login...
+2025-08-27 00:29:16 INFO  TC001_LoginTest:114 - Login successful
+2025-08-27 00:29:16 INFO  TC001_LoginTest:14 - ****** Startign TC_002_LoginTest *****
+2025-08-27 00:29:16 INFO  TC001_LoginTest:23 - ****** TC_001_LoginTest case PASSED*****
+2025-08-27 00:29:16 INFO  TC001_LoginTest:30 - ****** Finished TC_002_LoginTest *****
+2025-08-27 00:29:21 INFO  TC002_AssetPageTest:106 - Performing login...
+2025-08-27 00:29:26 INFO  TC002_AssetPageTest:114 - Login successful
+2025-08-27 00:29:26 INFO  TC002_AssetPageTest:51 - ****** Validating Asset Search Functionality ******
+2025-08-27 00:29:29 INFO  TC002_AssetPageTest:57 - Entered search query: MTU035
+2025-08-27 00:29:29 INFO  TC002_AssetPageTest:61 - First search result displayed: MTU035
+2025-08-27 00:29:29 INFO  TC002_AssetPageTest:66 - ****** Asset Search Validation PASSED ******
+2025-08-27 00:29:29 INFO  TC002_AssetPageTest:22 - ****** Waiting for Asset Page to Load Fully ******
+2025-08-27 00:29:29 INFO  TC002_AssetPageTest:24 - ****** Validating Asset Dashboard Metrics ******
+2025-08-27 00:29:29 INFO  TC002_AssetPageTest:45 - ****** Dashboard Metrics Validation Completed ******
+2025-08-27 00:29:30 INFO  TC002_AssetPageTest:97 - ****** Validating Export Excel Functionality ******
+2025-08-27 00:29:30 INFO  TC002_AssetPageTest:102 - Clicked on 'Export Excel' button
+2025-08-27 00:29:30 INFO  TC002_AssetPageTest:107 - ****** Export Excel Validation PASSED ******
+2025-08-27 00:29:30 INFO  TC002_AssetPageTest:130 - ****** Validating 'Create New Asset' Page ******
+2025-08-27 00:29:35 INFO  TC002_AssetPageTest:135 - Clicked on 'Add Asset' button
+2025-08-27 00:29:35 INFO  TC002_AssetPageTest:140 - ****** 'Create New Asset' Page Validation PASSED ******
+2025-08-27 00:29:39 INFO  TC003_AddAssetTest:106 - Performing login...
+2025-08-27 00:29:43 INFO  TC003_AddAssetTest:114 - Login successful
+2025-08-27 00:29:43 INFO  TC003_AddAssetTest:18 - ***** Starting TC004_AddAssetTest *****
+2025-08-27 00:29:47 INFO  TC003_AddAssetTest:25 - Clicked on 'Add Asset' button
+2025-08-27 00:29:47 INFO  TC003_AddAssetTest:32 - Entering Asset Details...
+2025-08-27 00:29:58 INFO  TC003_AddAssetTest:135 - Asset Details Entered Successfully!
+2025-08-27 00:29:59 INFO  TC003_AddAssetTest:150 - Clicked on 'Save' button
+2025-08-27 00:30:08 INFO  TC003_AddAssetTest:157 - ***** Asset is created *****
+2025-08-27 00:30:10 INFO  TC003_AddAssetTest:169 - ? Verifying Asset Number: expected -> Auto asset EES@867, actual -> Auto asset EES@867
+2025-08-27 00:30:10 INFO  TC003_AddAssetTest:172 - ? Verifying Make: expected -> DWTMY, actual -> DWTMY
+2025-08-27 00:30:10 INFO  TC003_AddAssetTest:175 - ? Verifying Model: expected -> KMY@735, actual -> KMY@735
+2025-08-27 00:30:10 INFO  TC003_AddAssetTest:178 - ? Verifying Serial Number: expected -> QAUUA@939, actual -> QAUUA@939
+2025-08-27 00:30:10 INFO  TC003_AddAssetTest:181 - ? Verifying Purchased From: expected -> kolkata erd@891, actual -> kolkata erd@891
+2025-08-27 00:30:10 INFO  TC003_AddAssetTest:184 - ? Verifying Year of Manufacturing: expected -> 2022, actual -> 2022
+2025-08-27 00:30:10 INFO  TC003_AddAssetTest:190 - ? Verifying Height of Machine: expected contains -> 10, actual -> 10ft - 36kg
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:193 - ? Verifying Capacity of Machine: expected contains -> 36, actual -> 10ft - 36kg
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:196 - ? Verifying Category: expected -> Telescopic Boom, actual -> Telescopic Boom
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:199 - ? Verifying Used/New: expected -> Used, actual -> USED
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:202 - ? Verifying ANSI/CE Standard: expected -> ANSI, actual -> ANSI
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:205 - ? Verifying Drive Train: expected -> Diesel, actual -> Diesel
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:208 - ? Verifying Wheel Drive Type: expected -> 4WD, actual -> 4WD
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:211 - ? Verifying Engine Serial Number: expected -> ENG123456, actual -> ENG123456
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:214 - ? Verifying Accessories: expected -> GPS, Rear Camera, actual -> GPS, Rear Camera
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:217 - ? Verifying Tires: expected -> Airfiled, actual -> Airfiled
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:226 - ? Verifying PO Number: expected -> PO0045, actual -> PO0045
+2025-08-27 00:30:11 INFO  TC003_AddAssetTest:238 - ? Verifying Payment to OEM: expected contains -> 50000, actual -> 50000
+2025-08-27 00:30:12 INFO  TC003_AddAssetTest:244 - ? Verifying Exchange Rate Remittance: expected contains -> 82.50, actual -> 1 USD = 82.50 INR
+2025-08-27 00:30:12 INFO  TC003_AddAssetTest:253 - ? Verifying Ex-Work Price: expected contains -> 100000, actual -> 100000
+2025-08-27 00:30:12 INFO  TC003_AddAssetTest:256 - ? Verifying CIF Charges: expected contains -> 150000, actual -> 150000
+2025-08-27 00:30:12 INFO  TC003_AddAssetTest:259 - ? Verifying Total Cost: expected contains -> 1,20,000, actual -> $2,50,00,01,20,000.00
+2025-08-27 00:30:12 INFO  TC003_AddAssetTest:262 - ? Verifying BOE Number: expected contains -> BOE998877, actual -> BOE998877
+2025-08-27 00:30:14 INFO  TC003_AddAssetTest:285 - ***** Finished TC004_AddAssetTest *****
+2025-08-27 00:30:17 INFO  TC006_AddLeaseTest:106 - Performing login...
+2025-08-27 00:30:23 INFO  TC006_AddLeaseTest:114 - Login successful
+2025-08-27 00:30:23 INFO  TC006_AddLeaseTest:15 - ***** Starting TC006_AddLeaseTest *****
+2025-08-27 00:30:23 INFO  TC006_AddLeaseTest:21 - Navigating to Lease Page...
+2025-08-27 00:30:27 INFO  TC006_AddLeaseTest:23 - Clicked on 'Add Lease' button
+2025-08-27 00:30:27 INFO  TC006_AddLeaseTest:28 - Verified 'New Lease' page is displayed
+2025-08-27 00:30:27 INFO  TC006_AddLeaseTest:31 - Filling Lease Details...
+2025-08-27 00:30:36 INFO  TC006_AddLeaseTest:40 - Adding Machine Details...
+2025-08-27 00:30:43 INFO  TC006_AddLeaseTest:56 - All lease details entered successfully!
+2025-08-27 00:30:43 INFO  TC006_AddLeaseTest:60 - Clicked on 'Submit' button
+2025-08-27 00:30:45 INFO  TC006_AddLeaseTest:65 - ***** TC006_AddLeaseTest PASSED *****
+2025-08-27 00:30:45 INFO  TC006_AddLeaseTest:71 - ***** Finished TC006_AddLeaseTest *****
+2025-08-27 00:30:49 INFO  TC007_AddNewOperatorTest:106 - Performing login...
+2025-08-27 00:30:53 INFO  TC007_AddNewOperatorTest:114 - Login successful
+2025-08-27 00:30:53 INFO  TC007_AddNewOperatorTest:15 - ***** Starting TC007_AddOperatorTest *****
+2025-08-27 00:30:53 INFO  TC007_AddNewOperatorTest:21 - Navigated to Operators Page
+2025-08-27 00:30:56 INFO  TC007_AddNewOperatorTest:25 - Clicked on 'Add Operator' button
+2025-08-27 00:30:56 INFO  TC007_AddNewOperatorTest:33 - Verified 'Add Operator' page is displayed
+2025-08-27 00:30:56 INFO  TC007_AddNewOperatorTest:36 - Filling Operator Details...
+2025-08-27 00:31:01 INFO  TC007_AddNewOperatorTest:52 - All operator details entered successfully!
+2025-08-27 00:31:16 INFO  TC007_AddNewOperatorTest:57 - Clicked on 'Save' button
+2025-08-27 00:31:36 INFO  TC007_AddNewOperatorTest:68 - ***** Finished TC007_AddOperatorTest *****
